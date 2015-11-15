@@ -1,0 +1,24 @@
+#navigation{margin:0;padding:0;clear:both;height:25px;background:#267BB6 url(../images/nav.gif) repeat-x left top}
+ul.nav-main,ul.nav-main li{list-style:none;margin:0;padding:0}
+ul.nav-main{position:relative;z-index:597}
+ul.nav-main li:hover > ul{visibility:visible}
+/*ul.nav-main li.hover, ul.menu1 li a.first{border-left:1px solid #37526b}*/
+ul.nav-main li.active a{position:relative;z-index:599;cursor:pointer;background:url(../images/bghover.png) repeat-x left top}
+ul.nav-main li:hover{position:relative;z-index:599;cursor:pointer;background:url(../images/bghover.png) repeat-x left top}
+ul.nav-main li{float:left;display:block;height:25px;color:#999;/*font:14px Arial,Helvetica,sans-serif;*/background:url(../images/s.gif) no-repeat right center;padding:0 10px}
+/*ul.nav-main > li:last-child{float:right}*/
+ul.nav-main li a{display:block;/*padding:5px 5px 0;*/height:20px;color:#FFF;/*font:12px Arial,Helvetica,sans-serif;*/text-decoration:none}
+ul.nav-main li a:hover{color:#EDEDED;border-bottom:solid red 2px}
+ul.nav-main .list{padding-right:10px;background:url(../images/na.gif) no-repeat right top}
+
+ul.nav-sub{visibility:hidden;position:absolute;padding:2px!important;top:25px;left:0;z-index:598;background:#267BB6 url(../images/t.gif) repeat-x left top;border-right:1px solid #287FBF;border-bottom:1px solid #287FBF;border-left:1px solid #287FBF;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px}
+ul.nav-sub li{list-style:none;display:block;padding:0;height:25px;float:none;width:165px;border-bottom:0px solid #267BB6;background:none}
+ul.nav-sub li:hover a{color:yellowgreen;border-bottom:0}
+ul.nav-sub li a{list-style:none;display:block;padding:6px 5px;height:15px;float:none;width:165px;background:none;/*font:12px Arial,Helvetica,sans-serif*/}
+
+ul.nav-sub ul.nav-sub{top:0 !important;margin-top:-30px;margin-left:156px;padding-left:0px !important}
+ul.nav-sub ul.nav-sub li:hover a{color:pink}
+
+ul.nav-main li.rtr{float:right}
+
+.nav-sub .lang img, .lang-selected-current img{height:18px;vertical-align:bottom}

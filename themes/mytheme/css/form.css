@@ -1,0 +1,106 @@
+div.form input,div.form textarea,div.form select{margin:.2em 0 .5em;margin:3px;padding:5px;}
+div.form input[type="checkbox"]{margin:10px 5px;padding:0px;}
+div.form input[type="text"]:hover,div.form input[type="password"]:hover,div.form textarea:hover,div.form select:hover{border:1px solid rgb(102,172,203);background:rgb(233,245,255);}
+div.form input[type="text"]:focus,div.form input[type="password"]:focus,div.form textarea:focus,div.form select:focus{border:1px solid rgb(146,200,132);background:rgb(220,255,220);}
+div.form input[type="text"]:active,div.form input[type="password"]:active,div.form textarea:active,div.form select:active{border:1px solid rgb(245,179,179);background:rgb(255,239,239);}
+div.form input[type="text"],div.form input[type="password"],div.form textarea,div.form select{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border:1px solid #CACACA;}
+div.form fieldset{background:rgb(255,255,255);border:1px solid #DDD;padding:3px;margin:0 0 10px;-moz-border-radius:7px;}
+div.form fieldset legend{font-weight:bold}
+div.form fieldset row:first-child{margin-top:0}
+div.form label{font-weight:normal;font-size:.8em;display:block;}
+/*div.form input[type="checkbox"]{-ms-transform: scale(1.5);-moz-transform: scale(1.5);-webkit-transform: scale(1.5);-o-transform: scale(1.5);padding:10px;}*/
+div.form .row{margin:5px 0;}
+div.form .hint{margin:0;padding:0;color:#999;font-size:.8em;color:#C60202;}
+div.form .note{font-style:italic;}
+div.form span.required{color:red;}
+div.form div.error label:first-child,div.form label.error,div.form span.error{color:#C00;}
+div.form div.error input,div.form div.error textarea,div.form div.error select,div.form input.error,div.form textarea.error,div.form select.error{background:#FEE;border-color:#C00;}
+div.form div.success input,div.form div.success textarea,div.form div.success select,div.form input.success,div.form textarea.success,div.form select.success{background:#E6EFC2;border-color:#C6D880;}
+div.form div.success label{color:inherit;}
+div.form .errorSummary{border:2px solid #C00;padding:7px 7px 12px;margin:0 0 20px;background:#FEE;font-size:.9em}
+div.form .errorMessage{color:red;font-size:.9em;}
+div.form .errorSummary p{margin:0;padding:5px;}
+div.form .errorSummary ul{margin:0;padding:0 0 0 20px;}
+div.row.ltr,div.column.ltr{text-align:left}
+div.row.rtl,div.column.rtl{text-align:right}
+div.column.buttons.rtl{float:right;}
+div.wide.form label{float:left;margin-right:10px;position:relative;text-align:right;width:100px;}
+div.wide.form .row{clear:left;}
+div.wide.form .buttons,div.wide.form .hint,div.wide.form .errorMessage{clear:left;padding-left:110px;}
+div.wide.form-x label{margin-right:10px;position:relative;display:block;font-size:0.7em;}
+div.wide.form-x .row{clear:left;padding-bottom:5px;}
+div.wide.form-x .buttons,div.wide.form .hint,div.wide.form .errorMessage{clear:left;}
+div.wide.form-x input,div.wide.form-x textarea,div.wide.form-x select{margin:.2em 0 .5em;margin:3px;padding:5px;}
+div.wide.form-x input[type="text"],div.wide.form-x textarea,div.wide.form-x select{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border:1px solid #CACACA;}
+div.form input.c25{width:25px}
+div.form input.c50{width:50px}
+div.form input.c100{width:100px}
+div.form input.c150{width:150px}
+div.form .field{padding:5px}
+.hasDatepicker {width:100px}
+#registration-form input[type="text"],
+#registration-form input[type="password"],
+#registration-form textarea,
+#login-form input[type="text"],
+#login-form input[type="password"],
+#login-form textarea{width:350px}
+#registration-form .password-helper{color:#C00}
+#registration-form #RegistrationForm_verifyCode{width:100px;}
+.profile-dg{border-collapse:collapse}
+.profile-dg th{width:200px;background:#F7F7F7;text-transform:capitalize}
+.profile-dg td{border:1px solid #FCFCFC}
+
+#group-form label,
+#user-form label, 
+#group-member-form label,
+.quick-create-form label
+{float:none !important;text-align:left !important;width:50px;}
+
+#group-form .buttons,
+#group-form .hint,
+#group-form .errorMessage,
+#group-member-form .buttons,
+#group-member-form .hint,
+#group-member-form .errorMessage,
+#user-form .buttons,
+#user-form .hint,
+#user-form .errorMessage,
+.quick-create-form .buttons,
+.quick-create-form .hint,
+.quick-create-form .errorMessage
+{padding-left:0px !important;clear:none !important}
+
+.center, .center *{text-align:center} 
+.center label{text-align:center !important} 
+.new-model {
+    border: 1px solid rgb(189, 220, 247);
+    padding: 7px;
+    background-color: rgb(239, 247, 255);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.field.tb { 
+    padding: 5px;
+    width: 180px;
+    border: 1px solid #CACACA;
+    background: #EAEAEA;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.column.ltr{float:left;}
+.column.rtr{float:right;}
+.dtp-mini{width:85px;}
+.date-column.mini .hasDatepicker{width:75px;}
+.column.fw1of2{width:48%}
+.column.fw1of3{width:32%}
+.column.fw1of4{width:24%}
+.column.fw1of5{width:18%}
+.column.fw1of6{width:15%}
+.column.fw1of7{width:12%}
+.column.fw1of2_3{width:64%}
+.column.fw2of2_3{width:32%}
+.fwtabx{padding:1%;width:98%;}
+.special{background:orangered;}
+input[type="button"],input[type="reset"],input[type="submit"]{background-color:#D8D3D3;height:30px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
